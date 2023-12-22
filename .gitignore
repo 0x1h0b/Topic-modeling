@@ -131,3 +131,5 @@ dmypy.json
 .DS_Store
 # data files used for training
 data/
+
+twitter_key_main.py
