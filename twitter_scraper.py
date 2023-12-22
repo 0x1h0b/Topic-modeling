@@ -1,4 +1,4 @@
-from twitter_key import *
+from twitter_key_main import *
 import tweepy
 import traceback
 import pandas as pd
@@ -7,7 +7,7 @@ import sys
 
 
 class TwitterApi:
-    def __init__(self,consumer_key,cosumer_secret,access_token,access_token_secret):
+    def __init__(self,consumer_key,consumer_secret,access_token,access_token_secret):
         self.c_key = consumer_key
         self.c_secret = consumer_secret
         self.a_token = access_token
