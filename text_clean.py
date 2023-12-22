@@ -26,6 +26,7 @@ def TextClean(all_text):
         text = re.sub(r'#',' # ',text)
         text = re.sub(r'@',' @ ',text)
         text = re.sub(r'_','  ',text)
+        text = re.sub(r'-','  ',text)
         # how to remove full stop and " -> findout ??
         re.sub(r"[,.;@#?!&$]+\ *"," ",text, flags=re.VERBOSE)
         text = word_tokenize(text)
